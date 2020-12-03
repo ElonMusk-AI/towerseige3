@@ -175,7 +175,7 @@ function keyPressed(){
 }
 
 async function getBackgroundColor(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Tokyo");
   var responseJSON = await response.json();
 
   var datetime = responseJSON.datetime;
